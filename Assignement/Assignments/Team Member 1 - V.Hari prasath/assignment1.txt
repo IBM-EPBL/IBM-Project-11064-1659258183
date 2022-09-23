@@ -1,0 +1,24 @@
+#include<Servo.h>
+Servo s;
+int i,j;
+
+void setup()
+{
+ 
+  s.attach(3);
+}
+void loop()
+{
+  for(i=0;i<360;i++);
+  {
+  s.write(i);
+  delay(100);
+  }
+  for(j=0;j<360;j++);
+  {
+    s.write(j);
+    delay(100);
+  }
+  delay(1000);
+
+}
