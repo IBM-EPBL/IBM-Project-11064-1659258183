@@ -1,0 +1,6 @@
+f=float(input())
+cel=((f-32)*5)/9
+if(cel>37):
+    print("high temperature",cel)
+else:
+    print("normal:",cel)
