@@ -1,0 +1,8 @@
+Celsius to fahrenheit
+
+cel=float(input("Enter in degrees:"))
+f=(cel*1.8)+32
+if(f>98.6):
+    print("high temperature",f)
+else:
+    print("normal temperature",f)
