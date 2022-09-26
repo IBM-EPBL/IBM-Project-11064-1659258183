@@ -5,9 +5,7 @@ if(cel>37):
 else:
     print("normal:",cel)
 
-___________________________________________________
-
-Celsius to fahrenheit
+#Celsius to fahrenheit
 
 cel=float(input("Enter in degrees:"))
 f=(cel*1.8)+32
